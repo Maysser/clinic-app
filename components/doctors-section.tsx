@@ -9,8 +9,8 @@ import { Calendar, Mail } from "lucide-react"
 const doctors = [
   {
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-thirdman-5327580.jpg-Opp6EehMT5Fyrsg941FGZiakoWPINk.jpeg",
-    name: "Dr. Sarah Johnson",
+      "/images/doctor1_1.png",
+    name: "Dr. Foulen El Fouleni",
     specialty: "Cardiology",
     description:
       "Specializing in cardiovascular health with over 10 years of experience in diagnosing and treating heart conditions.",
@@ -25,7 +25,7 @@ const doctors = [
   },
   {
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-tima-miroshnichenko-5452221.jpg-zncJJBiJfsZKK7Ki8N1yVCuENTS0Fm.jpeg",
+      "/images/med_team.avif",
     name: "Medical Team",
     specialty: "Collaborative Care",
     description:
