@@ -83,8 +83,8 @@ export default function HeroSection() {
             <div className="relative z-20 overflow-hidden rounded-2xl border bg-white shadow-xl">
               <div className="aspect-square overflow-hidden">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-thirdman-5327580.jpg-Opp6EehMT5Fyrsg941FGZiakoWPINk.jpeg"
-                  alt="Healthcare professional in white coat with stethoscope"
+                  src="/images/sthetoscope.avif"
+                  alt="A stethoscope"
                   className="object-cover w-full h-full transition-transform duration-500 hover:scale-105"
                 />
               </div>
