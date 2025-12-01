@@ -346,7 +346,7 @@ export default function ServicesPage() {
           </div>
           <div className="relative">
             <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-tima-miroshnichenko-5452221.jpg-zncJJBiJfsZKK7Ki8N1yVCuENTS0Fm.jpeg"
+              src="/images/med_team3.jpg"
               alt="Medical team collaborating"
               className="rounded-xl object-cover w-full aspect-video shadow-lg"
             />
