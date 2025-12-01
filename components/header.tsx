@@ -66,7 +66,7 @@ export default function Header() {
           </Link>
           <Button className="bg-teal-600 hover:bg-teal-700">
             <Phone className="mr-2 h-4 w-4" />
-            Emergency: 911
+            Emergency: 198
           </Button>
         </div>
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
