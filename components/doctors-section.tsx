@@ -10,7 +10,7 @@ const doctors = [
   {
     image:
       "/images/doctor1_1.png",
-    name: "Dr. Foulen El Fouleni",
+    name: "Dr. Yasser Salhi",
     specialty: "Cardiology",
     description:
       "Specializing in cardiovascular health with over 10 years of experience in diagnosing and treating heart conditions.",
@@ -18,10 +18,26 @@ const doctors = [
   {
     image:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pexels-thirdman-5327656.jpg-S5QoHUPRh9g6FLzDOGIQzoVwHbjKQk.jpeg",
-    name: "Dr. Michael Williams",
+    name: "Dr. Foulen El Fouleni",
     specialty: "Neurology",
     description:
       "Expert in neurological disorders with a focus on innovative treatment approaches and patient-centered care.",
+  },
+   {
+    image:
+      "/images/doc1.jpg",
+    name: "Dr. Aziz Boudriga",
+    specialty: "orthopedic surgeon",
+    description:
+      "Medical doctor who diagnoses, treats, and prevents injuries and diseases of the musculoskeletal system.",
+  },
+  {
+    image:
+      "/images/doc2.jpg",
+    name: "Dr. Ahmed Baraj",
+    specialty: "Tabib fel 7encha",
+    description:
+      "Medical doctor who diagnoses, treats bazda and youssef mnassri.",
   },
   {
     image:
