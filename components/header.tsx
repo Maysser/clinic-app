@@ -43,7 +43,7 @@ export default function Header() {
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
           <HeartbeatLogo />
-          <span className="text-xl font-bold">MediCare</span>
+          <span className="text-xl font-bold">SalhiMedical</span>
         </Link>
         <nav className="hidden md:flex gap-6">
           {navItems.map((item, index) => (
@@ -60,7 +60,7 @@ export default function Header() {
         </nav>
         <div className="hidden md:flex items-center gap-4">
           <Link href="/patient-portal" className="text-sm font-medium text-gray-600 hover:text-teal-600">
-            Patient Portal
+            LOG IN
           </Link>
           <Button className="bg-teal-600 hover:bg-teal-700">
             <Phone className="mr-2 h-4 w-4" />
