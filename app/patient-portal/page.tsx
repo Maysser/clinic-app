@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Activity, Calendar, ClipboardList, FileText, Lock, User } from "lucide-react"
+import Link from "next/link";
 
 export default function PatientPortal() {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
@@ -114,6 +115,11 @@ export default function PatientPortal() {
                     <Button variant="outline" size="sm" className="w-full">
                       Reschedule
                     </Button>
+                    <Button variant='valid' size="sm" className="w-full">
+                      <Link href="/payment">
+                        Pay
+                      </Link>
+                    </Button>
                   </CardFooter>
                 </Card>
               </motion.div>
@@ -195,6 +201,11 @@ export default function PatientPortal() {
                           <p className="text-sm text-gray-500">May 25, 2025 - 10:30 AM</p>
                         </div>
                         <div className="flex gap-2">
+                          <Button variant="valid" size="sm" asChild>
+                            <Link href="/payment">
+                              Pay 
+                            </Link> 
+                          </Button>    
                           <Button variant="outline" size="sm">
                             Reschedule
                           </Button>
@@ -209,6 +220,11 @@ export default function PatientPortal() {
                           <p className="text-sm text-gray-500">June 10, 2025 - 2:00 PM</p>
                         </div>
                         <div className="flex gap-2">
+                          <Button variant="valid" size="sm" asChild>
+                            <Link href="/payment">
+                              Pay
+                            </Link> 
+                          </Button>                          
                           <Button variant="outline" size="sm">
                             Reschedule
                           </Button>
