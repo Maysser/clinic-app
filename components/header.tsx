@@ -32,8 +32,6 @@ export default function Header() {
     { name: "Home", href: "/" },
     { name: "Services", href: "/services" },
     { name: "Doctors", href: "/doctors" },
-    { name: "About", href: "/about" },
-    { name: "Contact", href: "/contact" },
   ]
 
   return (
