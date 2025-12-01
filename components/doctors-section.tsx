@@ -9,7 +9,7 @@ import { Calendar, Mail } from "lucide-react"
 const doctors = [
   {
     image:
-      "/images/doctor1_1.png",
+      "/images/doctor1_1.jpg",
     name: "Dr. Yasser Salhi",
     specialty: "Cardiology",
     description:
