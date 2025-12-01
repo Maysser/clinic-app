@@ -2,7 +2,6 @@ import { Calendar, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import HeroSection from "@/components/hero-section"
 import ServicesSection from "@/components/services-section"
-import DoctorsSection from "@/components/doctors-section"
 import AppointmentForm from "@/components/appointment-form"
 import StatsSection from "@/components/stats-section"
 
@@ -12,7 +11,7 @@ export default function Home() {
       <HeroSection />
       <ServicesSection />
       <StatsSection />
-      <DoctorsSection />
+      
       <section className="py-20 bg-gradient-to-r from-teal-50 to-cyan-50">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
