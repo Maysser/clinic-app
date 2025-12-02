@@ -29,7 +29,7 @@ const doctors = [
     name: "Dr. Aziz Boudriga",
     specialty: "orthopedic surgeon",
     description:
-      "Medical doctor who diagnoses, treats, and prevents injuries and diseases of the musculoskeletal system.",
+      "Medical doctor who diagnoses, treats, and prevents injuries and Militaire is my Life , wlhy nbadel gynico khir.",
   },
   {
     image:
@@ -38,6 +38,14 @@ const doctors = [
     specialty: "Tabib fel 7encha",
     description:
       "Medical doctor who diagnoses, treats bazda and youssef mnassri.",
+  },
+  {
+    image:
+      "/images/doc3.jpg",
+    name: "Dr. Ilyes Manssori",
+    specialty: "Tbib Sidi Chikh",
+    description:
+      "Medical doctor who diagnoses, treats peapple of FMM, جهنم و بأس المصير.",
   },
   {
     image:
