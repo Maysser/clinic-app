@@ -8,9 +8,8 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "MediCare - Modern Healthcare Solutions",
+  title: "SalhiMedical - Modern Healthcare Solutions",
   description: "A modern hospital application with innovative design and features",
-    generator: 'v0.app'
 }
 
 export default function RootLayout({
