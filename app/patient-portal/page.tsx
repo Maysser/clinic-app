@@ -106,7 +106,7 @@ export default function PatientPortal() {
                   </CardHeader>
                   <CardContent>
                     <div className="text-sm">
-                      <p className="font-medium">Dr. Sarah Johnson</p>
+                      <p className="font-medium">Dr. Yasser Salhi</p>
                       <p className="text-gray-500">Cardiology</p>
                       <p className="text-gray-500">May 25, 2025 - 10:30 AM</p>
                     </div>
@@ -197,7 +197,7 @@ export default function PatientPortal() {
                     <div className="divide-y">
                       <div className="p-4 flex justify-between items-center">
                         <div>
-                          <p className="font-medium">Dr. Sarah Johnson - Cardiology</p>
+                          <p className="font-medium">Dr. Yasser Salhi - Cardiology</p>
                           <p className="text-sm text-gray-500">May 25, 2025 - 10:30 AM</p>
                         </div>
                         <div className="flex gap-2">
@@ -216,7 +216,7 @@ export default function PatientPortal() {
                       </div>
                       <div className="p-4 flex justify-between items-center">
                         <div>
-                          <p className="font-medium">Dr. Michael Williams - Neurology</p>
+                          <p className="font-medium">Dr. Foulen El Fouleni - Neurology</p>
                           <p className="text-sm text-gray-500">June 10, 2025 - 2:00 PM</p>
                         </div>
                         <div className="flex gap-2">
@@ -242,7 +242,7 @@ export default function PatientPortal() {
                     <div className="divide-y">
                       <div className="p-4 flex justify-between items-center">
                         <div>
-                          <p className="font-medium">Dr. Sarah Johnson - Cardiology</p>
+                          <p className="font-medium">Dr. Aziz Boudriga - orthopedic surgeon</p>
                           <p className="text-sm text-gray-500">April 15, 2025 - 11:00 AM</p>
                         </div>
                         <Button variant="outline" size="sm">
@@ -251,7 +251,7 @@ export default function PatientPortal() {
                       </div>
                       <div className="p-4 flex justify-between items-center">
                         <div>
-                          <p className="font-medium">Dr. Michael Williams - Neurology</p>
+                          <p className="font-medium">Dr. Ilyes Manssori - Tbib Sidi Chikh</p>
                           <p className="text-sm text-gray-500">March 22, 2025 - 9:30 AM</p>
                         </div>
                         <Button variant="outline" size="sm">
