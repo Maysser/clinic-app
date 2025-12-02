@@ -26,7 +26,7 @@ export default function Footer() {
                   />
                 </svg>
               </div>
-              <span className="text-xl font-bold text-white">MediCare</span>
+              <span className="text-xl font-bold text-white">SalhiMedical</span>
             </Link>
             <p className="text-sm mb-4">
               Providing innovative healthcare solutions with a focus on patient comfort and cutting-edge technology.
@@ -59,11 +59,6 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-sm hover:text-teal-400 transition-colors">
-                  About Us
-                </Link>
-              </li>
-              <li>
                 <Link href="/services" className="text-sm hover:text-teal-400 transition-colors">
                   Services
                 </Link>
@@ -75,12 +70,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/patient-portal" className="text-sm hover:text-teal-400 transition-colors">
-                  Patient Portal
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-sm hover:text-teal-400 transition-colors">
-                  Contact Us
+                  LOG IN
                 </Link>
               </li>
             </ul>
@@ -129,17 +119,17 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-teal-500 shrink-0" />
-                <span className="text-sm">+1 (555) 123-4567</span>
+                <span className="text-sm">+216 55 123 457</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-teal-500 shrink-0" />
-                <span className="text-sm">info@medicare-hospital.com</span>
+                <span className="text-sm">info@salhimedical-hospital.com</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} MediCare Hospital. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Salhi Medical Hospital. All rights reserved.</p>
         </div>
       </div>
     </footer>
